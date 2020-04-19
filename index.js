@@ -59,7 +59,7 @@
 
             // Prepare container
             $this.css( prefix({ 'backface-visibility': 'hidden' }));
-            $this.css({ overflow: 'scroll' });
+            $this.css({ overflow-y: 'scroll' });
 
             $this.on( 'scroll', function() {
                 // Store scroll amount
